@@ -5,9 +5,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -50,7 +52,7 @@
   
 }
 .navbar p{
-    font-size: 25px;
+    font-size: 20px;
     padding: 3%;
 }
 .navbarpc{
@@ -63,17 +65,6 @@
   font-weight: 100;
   font-style: normal;
   padding: 2%;
-}
-.navPC a:hover{
-  background-color:#AB8E5D;
-  border: 1px solid transparent;
-  color: white;
-  padding: 3px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  height: 4vh;
 }
 .Menubarcontainer{
   width: 50%;
@@ -88,7 +79,7 @@
 }
 .Couresal{
     width:100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url(assets/HexPortfolioBg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,10 +90,42 @@
     text-align: center;
 }
 .Couresal h1{
- padding-top: 10%;
+ padding-top: 15%;
+ font-family: "Bungee", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ font-size: 23px;
+
 }
 .Couresal h1 span{
     color: white;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+
+}
+.Couresal p{
+    color: rgb(207, 207, 207);
+    padding: 1%;
+    height: 10vh;
+}
+#cv{
+
+  background-image: linear-gradient(-180deg, #3765e2 0%, #1e62c8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 40%;
+  border: 0;
+  cursor: pointer;
+  display: block; /* Makes the button a block element */
+     margin: 0 auto; /* Centers horizontally */
 }
 .Containerimage{
     width: 100%;
@@ -112,4 +135,487 @@
 }
 #leader{
     width: 80%;
+}
+
+.ContainerAbout{
+    width: 100%;
+}
+.About{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#aboutimg{
+    width: 70%;
+}
+.aboutmetext{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmetext h1{
+    color: rgb(0, 0, 0);
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+}
+.boxesContainer{
+    width: 89%;
+    flex-direction: row;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   }
+   .Boxes{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width:16%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 9px;
+    margin: 3%;
+   }
+   .Boxes p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+     
+   #angular{
+       width: 100%;
+   }
+   #node{
+       width: 60%;
+      }
+.Projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Projects h1{
+    color: rgb(0, 0, 0);
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    font-style: normal;
+    padding-top: 7%;
+}
+      .Container2{
+        display: flex;
+        flex-direction: column;
+        background-image: url(assets/projeectbg.png);
+        width: 100%; 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        text-align: center;
+        align-items: center;
+        padding-top: 2%;
+      }
+      .content1{
+      width: 60%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      background-color: white;
+      border-radius: 10px;
+      margin: 3%; 
+      padding-bottom: 5%;
+      }
+      #content1img{
+      width:90%;
+      border-radius: 10px;
+      }
+      .content1 h3{
+         color:#bdbdbd86;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-style: 15px;
+      }
+      .content1 p {
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      
+      .content2{
+      width: 60%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      background-color: white;
+      border-radius: 10px;
+      padding-bottom: 5%;
+      margin: 3%; 
+      }
+      #content2img{
+        width:90%;
+        border-radius: 10px;
+      }
+      .content2 h3{
+          color:#838383;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+       font-style: normal;
+       font-style: 15px;
+      }
+      .content2 p{
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      
+      .content3{
+      width: 60%;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+      background-color: white;
+      border-radius: 10px;
+      padding-bottom: 5%;
+      margin: 3%; 
+      }
+      #content3img{
+        width:90%;
+        border-radius: 10px;
+      
+      }
+      .content3 h3{
+             color:#838383;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-style: 15px;
+      
+      }
+      .content3 p {
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      .Container3{
+      display: flex;
+        flex-direction: column;
+
+        background-repeat: no-repeat;
+        background-size: cover; 
+        text-align: center;
+        align-items: center;
+        padding-top: 2%;
+      }
+      
+      .content4{
+        width: 60%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 5%;
+        margin: 3%;
+      }
+      #content4img{
+        width:90%;
+        border-radius: 10px;
+      }
+      .content4 h3{
+             color:#838383;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-style: 15px;
+      }
+      .content4 p{
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      .content5{
+        width: 60%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 5%;
+        margin: 3%;
+      }
+      #content5img{
+        width:90%;
+        border-radius: 10px;
+      }
+      .content5 h3{
+             color:#838383;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-style: 15px;
+      }
+      .content5 p{
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      .content6{
+        width: 60%;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 5%;
+        margin: 3%;
+      }
+      #content6img{
+        width:90%;
+        border-radius: 10px;
+      }
+      .content6 h3{
+             color:#838383;
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      font-style: 15px;
+      }
+      .content6 p{
+        color: rgb(112, 111, 111);
+      font-family: "Alegreya Sans SC", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+      font-size: 10px;
+      padding-top: 2%;
+      }
+      #contact{
+        display: none;
+      }
+  .Contact{
+    width: 100%;
+    padding-left: 10%;
+    
+  }
+      input[type=text], select, textarea {
+        width: 100%;
+        display: flex;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        background-color: #06048a;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 9px;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #0059ff;
+      }
+      
+
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 10px;
+      }
+      
+
+      .column {
+        width: 90%;
+        margin-top: 6px;
+        padding: 20px;
+      }
+      
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .ContainerFooter{
+        width:100%;
+        background-image: url(assets/HexPortfolioBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .ContainerFooter p{
+        padding-top: 5%;
+        color: #000000;
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 10px;
+      
+      }
+      #logoFooterimg{
+        width: 10%;
+      }
+      
+      
+@media screen and (min-width: 1024px){
+    .ContainerAboutimg{
+         display: flex;
+    }
+    .navbar p{
+        font-size: 20px;
+        padding-left: 28%;
+    }
+    .Couresal{
+   height: 90vh;
+
+    }
+    .navbar{ 
+      width: 50%;
+    }
+    .Menubarcontainer{
+      width: 0%;
+    }
+    .navbarpc{
+      width: 100%;
+      display: flex;
+  
+    }
+ 
+    
+    .navPC{
+      padding-top:2%;
+      width: 100%;
+      text-align: center;
+      justify-content: space-between;
+    }
+
+     .Menubar{
+      display: none;
+  }
+  .Couresal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Couresal h1{
+    padding-top: 0%;
+    font-size: 45px;
+   }
+   .Couresal h1 span{
+font-size: 45px;
+   }
+   .Couresal p{
+    color: rgb(207, 207, 207);
+    width: 90%;
+    padding-left: 11%;
+}
+#cv{
+    width: 30%;
+}
+.Containerimage{
+    width: 40%;
+}
+  #leader{
+    width: 100%;
+}
+.About{
+   display: flex;
+   flex-direction: row;
+}
+#aboutimg{
+    width: 40%;
+}
+.aboutmetext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmetext h1{
+  font-size: 36px;
+  padding-right: 42%;
+}
+.aboutmetext p{
+    width: 70%;
+}
+.Projects h1{
+
+    color: rgb(0, 0, 0);
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+}
+.Container2{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+.content1{
+    width: 20%;
+    padding-bottom: 2%;
+  }
+  .content2{
+     width: 20%;
+     padding-bottom: 2%;
+  }
+  .content3{
+     width: 20%;
+    padding-bottom: 2%;
+  }
+  .content4{
+     width: 20%;
+     padding-bottom: 2%;
+  }  
+  .content5{
+    width: 20%;
+    padding-bottom: 2%;
+ } 
+ .content6{
+  width: 20%;
+  padding-bottom: 2%;
+} 
+#contact{
+  display: flex;
+  width: 100%;
+}
+.Contact{
+  width: 100%;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding: 20px;
+
+}
+.ContainerFooter{
+  margin-top: 3%;
+  }
+ #logoFooterimg{
+  width: 20%;
+}
 }

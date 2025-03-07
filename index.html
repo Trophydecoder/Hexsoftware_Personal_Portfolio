@@ -5,21 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="Containernavbar">
         <div class="navbar">
-            <p>Sithembiso.</p>
+            <p>Chosen one</p>
         </div>
         <div class="navbarpc">
             <div class="navPC">
-                <a href="." id="Homenav">Home</a>
-                <a href="." id="R1nav">Marketing intelligence</a>
-                <a href="." id="R2nav">Execution intelligence</a>
-                <a href="." id="Content-hubnav">Content-hub</a>
-                <a href="." id="Contact-usnav">Contact-us</a>
+                <a href="#ContainerCouresal" id="Homenav">Home</a>
+                <a href="#ContainerAbout" id="R1nav">About</a>
+                <a href="#Container2" id="R2nav">Projects</a>
+                <a href="#Contact" id="Content-hubnav">Contact</a>
             </div>
         </div>
         <div class="Menubarcontainer">
@@ -28,25 +30,126 @@
     </div>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="./index.html" id="Homenav">Home</a>
-        <a href="./MarketingIntelligence.html" id="R1nav">Marketing intelligence</a>
-        <a href="./ExecutionIntelligency.html" id="R2nav">Execution intelligence</a>
-        <a href="./Content-hub.html" id="Content-hubnav">Content-hub</a>
-        <a href="./contactus.html" id="Contact-usnav">Contact-us</a>
-    </div>
-   <div class="ContainerCouresal">
-    <div class="Couresal">
-        <h1>Hello , I'm <span> Sithembiso</span></h1>
-        <p>loremSed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam eaque
-            cum soluta nobis est eligendi optio,</p>
-    <div class="Containerimage">
-        <div class="Image">
-            <img src="assets/leader.png" alt="" id="leader">
+        <a href="#ContainerCouresal" id="Homenav">Home</a>
+        <a href="#ContainerAbout" id="R1nav">About</a>
+        <a href="#Container2" id="R2nav">Projects</a>
+        <a href="#Contact" id="Content-hubnav">Contact</a>
+    </div>    
+    <div class="ContainerCouresal" id="ContainerCouresal">
+        <div class="Couresal">
+            <div class="CouresalTexts">
+                <h1>Hello , I'm <span> Sithembiso</span></h1>
+                <p>From Zero to Self-Taught Developer: My Journey & Lessons Learned!"</p>
+                    <input type="button" alt="" value="Resume" id="cv">
+            </div>
+            <div class="Containerimage">
+                <div class="Image">
+                    <img src="assets/leader.png" alt="" id="leader">
+                </div>
+            </div>
         </div>
     </div>
+    <div id="ContainerAbout" class="ContainerAbout">
+        <div class="About">
+            <img src="assets/leaderAbt.png" alt="" id="aboutimg">
+    
+        <div class="aboutmetext">
+            <h1>About me </h1>
+            <p> I'm a self-taught software developer passionate about building web applications and solving real-world problems with code. I started my coding journey in January 2024, and since then, I've built multiple projects, including a construction-related web application.</p>
+                <div class="boxesContainer">
+                    <div class="Boxes">
+                        <p>Angular</p>
+                        <img src="assets/ANGULAR.png" alt="" id="angular">
+                      </div> 
+                      <div class="Boxes">
+                        <p>CSS</p>
+                        <img src="assets/CSS.png" alt="" id="angular">
+                    </div> 
+                    <div class="Boxes">
+                        <p>JS</p>
+                        <img src="assets/JS.png" alt="" id="angular">
+                </div>
+                <div class="Boxes">
+                    <p>NodeJS</p>
+                    <img src="assets/nodejs.png" alt="" id="node">
+                </div>
+        </div>
     </div>
-   </div>
+        </div>
+        <div class="Projects">
+            <h1>Projects</h1>
+        </div>
+    <div class="Container2" id="Container2">
+        <div class="content1">
+          <img src="assets/mnisi.png" alt="content1" id="content1img">
+          <h3>Construction</h3>
+          <p>iste natus error sit voluptatem
+            accusantium doloremque laudantium,</p>
+        </div>
+          <div class="content2">
+            <img src="assets/doctor.png" alt="content2" id="content2img">
+            <h3>Doctor</h3>
+            <p>iste natus error sit voluptatem
+            accusantium doloremque laudantium,</p>
+          </div>
+          
+              <div class="content3">
+                <img src="assets/car.png" alt="content3" id="content3img">
+                <h3>Car Dealer</h3>
+                <p>iste natus error sit voluptatem
+                accusantium doloremque laudantium,</p>
+              </div>
+
+              <div class="content4">
+                <img src="assets/security.png" alt="content4" id="content4img">
+                <h3>Security</h3>
+                <p>iste natus error sit voluptatem
+                accusantium doloremque laudantium,</p>
+              </div>
+              <div class="content5">
+                <img src="assets/contractor.png" alt="content4" id="content5img">
+                <h3>Contractor</h3>
+                <p>iste natus error sit voluptatem
+                accusantium doloremque laudantium,</p>
+              </div>
+              <div class="content6">
+                <img src="assets/fvp.png" alt="content4" id="content6img">
+                <h3>Cooperate</h3>
+                <p>iste natus error sit voluptatem
+                accusantium doloremque laudantium,</p>
+              </div>
+            </div>
+            <div class="Projects">
+                <h1>Contact  me</h1>
+            </div>
+
+            <div class="Contact" id="Contact">
+                <div class="row">
+                    <div class="column">
+                      <img src="assets/Contact-usbg.png" alt="" id="contact">
+                    </div>
+                    <div class="column">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="ContainerFooter">
+                <div class="footer">
+                  <p>ALL OF THE RIGHTS RESERVED</p>
+                <div class="Footer">
+                  <img src="assets/Devlogo.png" alt="logo" id="logoFooterimg">
+                </div>
+              </div> 
+            
 </body>
 
 </html>
