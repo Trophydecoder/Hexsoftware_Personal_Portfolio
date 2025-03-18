@@ -648,7 +648,9 @@ font-size: 45px;
   padding-right: 42%;
 }
 .aboutmetext p{
+  padding-top: 0px;
     width: 70%;
+    font-size: 17px;
 }
 .Skill p{
   padding-left: 15%;
@@ -659,6 +661,7 @@ font-size: 45px;
 }
 .Projects p{
   padding-top: 0%;
+  font-size: 20px;
 }
 .Container2{
   margin-top: 2%;
