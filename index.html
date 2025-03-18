@@ -22,8 +22,8 @@
                 <a href="#ContainerAbout" id="R1nav">About</a>
                 <a href="#Container2" id="R2nav">Projects</a>
                 <a href="#Contact" id="Content-hubnav">Contact</a>
-                <a href="$"><i class="fa-brands fa-github" style="color:  #1e62c8;; font-size: 25px; padding-left: 2%;"></i></a>
-                <a href="$"><i class="fa-brands fa-linkedin" style="color: #1e62c8;; font-size: 25px; padding-left: 0%;"></i></a>
+                <a href="https://github.com/Trophydecoder"><i class="fa-brands fa-github" style="color:  #1e62c8;; font-size: 25px; padding-left: 2%;"></i></a>
+                <a href="https://www.linkedin.com/in/sithembiso-mdawe-2521452a9/"><i class="fa-brands fa-linkedin" style="color: #1e62c8;; font-size: 25px; padding-left: 0%;"></i></a>
               </div>
         </div>
         <div class="Menubarcontainer">
@@ -42,7 +42,7 @@
             <div class="CouresalTexts">
                 <h1>Hello , I'm <span> Sithembiso</span></h1>
                 <p>From Zero to Self-Taught Developer: My Journey & Lessons Learned!</p>
-                    <input type="button" alt="" value="Resume" id="cv">
+                    <input type="button" alt="" value="Resume" id="cv" onclick="downloadResume()">
             </div>
             <div class="Containerimage">
                 <div class="Image">
@@ -57,7 +57,7 @@
     
         <div class="aboutmetext">
             <h1>About me </h1>
-            <p> I'm a self-taught software developer passionate about building web applications and solving real-world problems with code. I started my coding journey in January 2024, and since then, I've built multiple projects, including a construction-related web application.</p>
+            <p> I'm a self-taught software developer passionate about building web applications and solving real-world problems with code. I started my coding journey in January 2024, and since then, I've built multiple projects.</p>
       
                 <div class="boxesContainer">
                     <div class="Boxes">
@@ -138,7 +138,9 @@
                     <div class="column1">
                       <img src="assets/leaderContact.png" alt="" id="contact">
                     </div>
+       
                     <div class="column">
+                      <form action="mailto:your@email.com" method="post" enctype="text/plain">
                         <label for="fname">First Name</label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         <label for="lname">Last Name</label>

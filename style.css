@@ -327,7 +327,7 @@ html {
       
       }
       .content3 p {
-        color: rgb(119, 119, 119);
+        color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -366,7 +366,7 @@ html {
       font-style: 15px;
       }
       .content4 p{
-        color: rgb(119, 119, 119);
+        color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -394,7 +394,7 @@ html {
       font-style: 15px;
       }
       .content5 p{
-        color: rgb(119, 119, 119);
+        color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -472,6 +472,7 @@ html {
       }
       .iconsEmail p{
         font-size: 10px;
+        color: #818181;
       }
       #contact{
         display: none;
@@ -517,7 +518,7 @@ html {
         background-image: url(assets/contactbg.png);
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 9px;
+      
     }
 
       .column {
@@ -627,6 +628,7 @@ font-size: 45px;
 }
   #leader{
     width: 100%;
+    padding-top: 5%;
 }
 .About{
    display: flex;
