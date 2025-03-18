@@ -8,7 +8,7 @@
 }
 
 html {
-  scroll-behavior: smooth; /* Enables smooth scrolling */
+  scroll-behavior: smooth; 
 }
 .sidenav {
     height: 100%;
@@ -46,6 +46,8 @@ html {
     display: flex;
     flex-direction: row;
     width: 100%;
+    position: fixed;
+    background-color: white;
 }
 .navbar{
   width: 50%;
@@ -57,6 +59,10 @@ html {
 }
 .navbarpc{
   display: none;
+  position: sticky;
+}
+#ChosenOne{
+  width: 30%;
 }
 .navPC a{
   text-decoration: none;
@@ -68,10 +74,12 @@ html {
 }
 .Menubarcontainer{
   width: 50%;
+  position: sticky;
 }
 .Menubar{
    float: right;
    padding-right: 8%;
+   padding-top: 6%;
 } 
 
 .ConatinerCouresal{
@@ -79,7 +87,7 @@ html {
 }
 .Couresal{
     width:100%;
-    height: 70vh;
+    height: 75vh;
     background-image: url(assets/HexPortfolioBg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +98,7 @@ html {
     text-align: center;
 }
 .Couresal h1{
- padding-top: 15%;
+ padding-top: 20%;
  font-family: "Bungee", sans-serif;
  font-weight: 400;
  font-style: normal;
@@ -98,7 +106,7 @@ html {
 
 }
 .Couresal h1 span{
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -107,8 +115,8 @@ html {
 }
 .Couresal p{
     color: rgb(207, 207, 207);
-    padding: 1%;
-    height: 10vh;
+    padding-top: 2%;
+    height: 8vh;
 }
 #cv{
 
@@ -129,12 +137,16 @@ html {
 }
 .Containerimage{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:13%;
 }
 .image{
     width: 100%;
 }
 #leader{
-    width: 80%;
+    width: 100%;
 }
 
 .ContainerAbout{
@@ -159,33 +171,27 @@ html {
     align-items: center;
 }
 .aboutmetext h1{
-    color: rgb(0, 0, 0);
-    font-family: "Bungee", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    color: #1e62c8;
+    font-family: "Bungee", serif;
     font-size: 23px;
 }
-.Skill{
-  width: 100%;
-  padding-top: 5%;
+.aboutmetext p{
+  width: 80%;
+  color: grey;
+  padding-top: 2%;
+  font-size: 13px;
 }
-.Skill p{
-font-size: 20px;
-color: rgb(0, 0, 0);
-font-family: "Bungee", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
+
 .boxesContainer{
     width: 89%;
     flex-direction: row;
      display: flex;
    justify-content: center;
    align-items: center;
-   
+   padding-top: 4%;
    }
    .Boxes{
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width:16%;
     justify-content: center;
     display: flex;
@@ -211,19 +217,27 @@ font-style: normal;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 .Projects h1{
-    color: rgb(0, 0, 0);
+    color:#1e62c8;
     font-family: "Bungee", sans-serif;
     font-weight: 400;
     font-size: 23px;
     font-style: normal;
     padding-top: 7%;
 }
+.Projects p{
+  color: grey;
+  padding-top: 2%;
+  width: 80%;
+
+  font-size: 13px;
+}
       .Container2{
         display: flex;
         flex-direction: column;
-        background-image: url(assets/projeectbg.png);
+        background-color: rgb(243, 243, 243);
         width: 100%; 
         background-repeat: no-repeat;
         background-size: cover; 
@@ -233,25 +247,26 @@ font-style: normal;
       }
       .content1{
       width: 60%;
-      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-      background-color: white;
-      border-radius: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+      
       margin: 3%; 
       padding-bottom: 5%;
       }
       #content1img{
       width:90%;
-      border-radius: 10px;
+      
       }
       .content1 h3{
-        color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
       font-style: normal;
       font-style: 15px;
       }
       .content1 p {
-        color: rgb(112, 111, 111);
+        color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -261,25 +276,26 @@ font-style: normal;
       
       .content2{
       width: 60%;
-      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-      background-color: white;
-      border-radius: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+      
       padding-bottom: 5%;
       margin: 3%; 
       }
       #content2img{
         width:90%;
-        border-radius: 10px;
+        
       }
       .content2 h3{
-          color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
        font-style: normal;
        font-style: 15px;
       }
       .content2 p{
-        color: rgb(112, 111, 111);
+        color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -290,19 +306,20 @@ font-style: normal;
       
       .content3{
       width: 60%;
-      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-      background-color: white;
-      border-radius: 10px;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+      
       padding-bottom: 5%;
       margin: 3%; 
       }
       #content3img{
         width:90%;
-        border-radius: 10px;
+        
       
       }
       .content3 h3{
-             color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
       font-style: normal;
@@ -310,7 +327,7 @@ font-style: normal;
       
       }
       .content3 p {
-        color: rgb(112, 111, 111);
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -330,25 +347,26 @@ font-style: normal;
       
       .content4{
         width: 60%;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-        background-color: white;
-        border-radius: 10px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+        
         padding-bottom: 5%;
         margin: 3%;
       }
       #content4img{
         width:90%;
-        border-radius: 10px;
+        
       }
       .content4 h3{
-             color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
       font-style: normal;
       font-style: 15px;
       }
       .content4 p{
-        color: rgb(112, 111, 111);
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -357,25 +375,26 @@ font-style: normal;
       }
       .content5{
         width: 60%;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-        background-color: white;
-        border-radius: 10px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+        
         padding-bottom: 5%;
         margin: 3%;
       }
       #content5img{
         width:90%;
-        border-radius: 10px;
+        
       }
       .content5 h3{
-             color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
       font-style: normal;
       font-style: 15px;
       }
       .content5 p{
-        color: rgb(112, 111, 111);
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
@@ -384,30 +403,75 @@ font-style: normal;
       }
       .content6{
         width: 60%;
-        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-        background-color: white;
-        border-radius: 10px;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+        
         padding-bottom: 5%;
         margin: 3%;
       }
       #content6img{
         width:90%;
-        border-radius: 10px;
+        
       }
       .content6 h3{
-             color:#838383;
+        padding-top: 2%;
+        color: rgb(119, 119, 119);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 600;
       font-style: normal;
       font-style: 15px;
       }
       .content6 p{
-        color: rgb(112, 111, 111);
+  color: rgb(168, 166, 166);
       font-family: "Alegreya Sans SC", sans-serif;
       font-weight: 100;
       font-style: normal;
       font-size: 10px;
       padding-top: 2%;
+      }
+
+      .ContainerContacticons{
+        margin-top: 4%;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .iconsPhone{
+        width:40%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1e62c8;
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        height: 16vh;
+        border-top-left-radius:  9px;
+        border-top-right-radius:  9px;
+      }
+      .fas{
+        font-size: 40px;
+        color: white;
+      }
+  
+      .iconsPhone p{
+        padding-top: 6%;
+        color: white;
+      }
+      .iconsEmail{
+       box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        width:40%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 16vh;
+        border-bottom-left-radius:  9px;
+        border-bottom-right-radius:  9px;
+      }
+      .iconsEmail p{
+        font-size: 10px;
       }
       #contact{
         display: none;
@@ -425,15 +489,17 @@ font-style: normal;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
+        border-radius: 9px;
       }
       
       input[type=submit] {
-        background-color: #06048a;
-        color: white;
+        background-color: #1e62c8;
+        color: rgb(255, 255, 255);
         padding: 12px 20px;
         border: none;
         cursor: pointer;
         border-radius: 9px;
+        width: 30%;
       }
       
       input[type=submit]:hover {
@@ -446,12 +512,19 @@ font-style: normal;
         background-color: #f2f2f2;
         padding: 10px;
       }
-      
+      .row{
+        width:100%;
+        background-image: url(assets/contactbg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 9px;
+    }
 
       .column {
         width: 90%;
         margin-top: 6px;
         padding: 20px;
+        border-radius: 9px;
       }
       
 
@@ -462,7 +535,7 @@ font-style: normal;
       }
       .ContainerFooter{
         width:100%;
-        background-image: url(assets/HexPortfolioBg.png);
+        background-color: black;
         background-repeat: no-repeat;
         background-size: cover;
         align-items: center;
@@ -473,7 +546,7 @@ font-style: normal;
       }
       .ContainerFooter p{
         padding-top: 5%;
-        color: #000000;
+        color: #ffffff;
         font-family: "Alegreya Sans SC", sans-serif;
         font-weight: 100;
         font-style: normal;
@@ -489,9 +562,14 @@ font-style: normal;
     .ContainerAboutimg{
          display: flex;
     }
+    #ChosenOne{
+      width: 40%;
+      padding-left: 24%;
+    }
     .navbar p{
         font-size: 20px;
         padding-left: 28%;
+
     }
     .Couresal{
    height: 90vh;
@@ -511,7 +589,7 @@ font-style: normal;
  
     
     .navPC{
-      padding-top:2%;
+      padding-top:3%;
       width: 100%;
       text-align: center;
       justify-content: space-between;
@@ -528,20 +606,24 @@ font-style: normal;
 .Couresal h1{
     padding-top: 0%;
     font-size: 45px;
+    padding-left: 15%;
+    text-wrap: nowrap;
    }
    .Couresal h1 span{
 font-size: 45px;
    }
    .Couresal p{
     color: rgb(207, 207, 207);
-    width: 90%;
-    padding-left: 11%;
+    width:100%;
+    padding-left: 12%;
 }
 #cv{
     width: 30%;
 }
 .Containerimage{
-    width: 40%;
+    width: 60%;
+    padding-left: 12%;
+    
 }
   #leader{
     width: 100%;
@@ -572,14 +654,14 @@ font-size: 45px;
   padding-left: 15%;
 }
 .Projects h1{
-
-    color: rgb(0, 0, 0);
-    font-family: "Bungee", sans-serif;
-    font-weight: 400;
     font-size: 35px;
-    font-style: normal;
+    padding-top: 4%;
+}
+.Projects p{
+  padding-top: 0%;
 }
 .Container2{
+  margin-top: 2%;
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -609,25 +691,66 @@ font-size: 45px;
   width: 20%;
   padding-bottom: 2%;
 } 
+.ContainerContacticons{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.iconsPhone{
+  width:20%;
+  height: 20vh;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 9px;
+  
+}
+.iconsEmail{
+  width:20%;
+  height: 20vh;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 9px;
+}
+.iconsEmail p{
+  font-size: 14px;
+  padding-top: 5%;
+}
+.row{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ height: 90vh;
+}
 #contact{
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 .Contact{
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  padding-left: 15%;
+  padding-left: 0%;
   padding-top: 3%;
 }
-
-.column {
-  float: left;
+.column1 {
+  display: flex;
+  flex-direction: column;
   width: 40%;
-  margin-top: 6px;
-  padding: 20px;
-
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+   margin-left: -6%;
 }
 .ContainerFooter{
-  margin-top: 3%;
+  margin-top: 0%;
   }
  #logoFooterimg{
   width: 20%;

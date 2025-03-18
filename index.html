@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <div class="Containernavbar">
+    <div class="Containernavbar" >
         <div class="navbar">
-            <p>Chosen one</p>
+          <img src="assets/ChosenOne.png" alt="" id="ChosenOne">
         </div>
         <div class="navbarpc">
             <div class="navPC">
@@ -22,7 +22,9 @@
                 <a href="#ContainerAbout" id="R1nav">About</a>
                 <a href="#Container2" id="R2nav">Projects</a>
                 <a href="#Contact" id="Content-hubnav">Contact</a>
-            </div>
+                <a href="$"><i class="fa-brands fa-github" style="color:  #1e62c8;; font-size: 25px; padding-left: 2%;"></i></a>
+                <a href="$"><i class="fa-brands fa-linkedin" style="color: #1e62c8;; font-size: 25px; padding-left: 0%;"></i></a>
+              </div>
         </div>
         <div class="Menubarcontainer">
             <span style="font-size:30px;cursor:pointer" class="Menubar" onclick="openNav()">&#9776;</span>
@@ -30,16 +32,16 @@
     </div>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#ContainerCouresal" id="Homenav">Home</a>
-        <a href="#ContainerAbout" id="R1nav">About</a>
-        <a href="#Container2" id="R2nav">Projects</a>
-        <a href="#Contact" id="Content-hubnav">Contact</a>
+        <a href="#ContainerCouresal" id="Homenav"  onclick="closeNav()">Home</a>
+        <a href="#ContainerAbout" id="R1nav"  onclick="closeNav()">About</a>
+        <a href="#Container2" id="R2nav"  onclick="closeNav()">Projects</a>
+        <a href="#Contact" id="Content-hubnav "  onclick="closeNav()">Contact</a>
     </div>    
     <div class="ContainerCouresal" id="ContainerCouresal">
         <div class="Couresal">
             <div class="CouresalTexts">
                 <h1>Hello , I'm <span> Sithembiso</span></h1>
-                <p>From Zero to Self-Taught Developer: My Journey & Lessons Learned!"</p>
+                <p>From Zero to Self-Taught Developer: My Journey & Lessons Learned!</p>
                     <input type="button" alt="" value="Resume" id="cv">
             </div>
             <div class="Containerimage">
@@ -56,9 +58,7 @@
         <div class="aboutmetext">
             <h1>About me </h1>
             <p> I'm a self-taught software developer passionate about building web applications and solving real-world problems with code. I started my coding journey in January 2024, and since then, I've built multiple projects, including a construction-related web application.</p>
-            <div class="Skill">
-              <p>skills</p>
-            </div>
+      
                 <div class="boxesContainer">
                     <div class="Boxes">
                         <p>Angular</p>
@@ -81,49 +81,62 @@
         </div>
         <div class="Projects">
             <h1>Projects</h1>
+            <p>A glimpse into my journey as a web developer—each project crafted with passion, precision, and purpose.
         </div>
     <div class="Container2" id="Container2">
         <div class="content1">
           <img src="assets/mnisi.png" alt="content1" id="content1img">
           <h3>Construction</h3>
-
+        <p>A professional website for construction companies and contractors. It showcases services, completed projects, and client testimonials. It helps businesses attract clients by presenting their expertise in building and infrastructure development.</p>
         </div>
           <div class="content2">
             <img src="assets/doctor.png" alt="content2" id="content2img">
             <h3>Doctor</h3>
-
+         <p>A healthcare website designed for doctors and medical clinics. It provides essential information about services, doctor profiles, and contact details. It can also include appointment booking functionality, making it easier for patients to connect with healthcare professionals.</p>
           </div>
           
               <div class="content3">
                 <img src="assets/car.png" alt="content3" id="content3img">
                 <h3>Car Dealer</h3>
-               
+               <p>A modern platform for car dealerships, allowing them to display available cars with images, specifications, and pricing. It includes a search and filter feature to help buyers find the right vehicle. The website improves customer engagement and streamlines the car-buying process.</p>
               </div>
 
               <div class="content4">
                 <img src="assets/security.png" alt="content4" id="content4img">
                 <h3>Security</h3>
-               
+               <p>A website for security companies offering services like private security, event security, and corporate protection. It includes service details, company background, and a contact form for potential clients needing security solutions.</p>
               </div>
               <div class="content5">
                 <img src="assets/contractor.png" alt="content4" id="content5img">
                 <h3>Contractor</h3>
-               
+               <p>A directory-style website that connects homeowners and businesses with reliable contractors. It features contractor profiles, reviews, and service listings, helping people find professionals for construction, renovation, and repair work.</p>
               </div>
               <div class="content6">
                 <img src="assets/fvp.png" alt="content4" id="content6img">
                 <h3>Cooperate</h3>
-               
+               <p>A professional website for an auditing and consulting company. It showcases financial auditing services, risk assessment, and business advisory solutions. Designed for corporate clients, the website highlights industry expertise, compliance standards, and client success stories to build trust and credibility.</p>
               </div>
             </div>
             <div class="Projects">
-                <h1>Contact  me</h1>
+                <h1>Let’s Build Something Amazing Together</h1>
+                <p>Have a project in mind? Need a website or just want to chat about tech? Reach out, and let’s make it happen!</p>
             </div>
-
+             <div class="ContainerContacticons">
+              <div class="iconsPhone">
+                <i class='fas fa-phone-square-alt'></i>
+                <p>+27 68 358 7691</p>
+                <p>+27 69 204 7185</p>
+              </div>
+              <div class="iconsEmail">
+                <i class='fas fa-envelope-square' style="color: #1e62c8;"></i>
+                <p>Sithembisomdawe163@gmail.com</p>
+                <p>trophydecoder@gmail.com</p>
+              </div>
+             </div>
             <div class="Contact" id="Contact">
                 <div class="row">
-                    <div class="column">
-                      <img src="assets/Contact-usbg.png" alt="" id="contact">
+                    <div class="column1">
+                      <img src="assets/leaderContact.png" alt="" id="contact">
                     </div>
                     <div class="column">
                         <label for="fname">First Name</label>
@@ -143,10 +156,10 @@
                 <div class="footer">
                   <p>ALL OF THE RIGHTS RESERVED</p>
                 <div class="Footer">
-                  <img src="assets/Devlogo.png" alt="logo" id="logoFooterimg">
+                  <img src="assets/ChosenOne.png" alt="logo" id="logoFooterimg">
                 </div>
               </div> 
-            
+            <script src="script.js"></script>
 </body>
 
 </html>
