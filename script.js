@@ -10,7 +10,7 @@ function closeNav() {
 function downloadResume() {
     const link = document.createElement('a');
     link.href = 'https://drive.google.com/file/d/1-oewf-ecxdPxfHDFkzT1WKW3mXKLLBXe/view?usp=drive_link';  // Change this to your actual resume file URL
-    link.download = 'Sithembiso Mdawe CV.pdf'; // Change this to your preferred file name
+    link.download = 'Sithembiso Mdawe CV.pdf'; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

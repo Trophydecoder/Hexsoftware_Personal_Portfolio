@@ -87,7 +87,7 @@ html {
 }
 .Couresal{
     width:100%;
-    height: 75vh;
+    height: 73.30vh;
     background-image: url(assets/HexPortfolioBg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,6 +147,7 @@ html {
 }
 #leader{
     width: 100%;
+    padding-top: 3%;
 }
 
 .ContainerAbout{
@@ -628,7 +629,7 @@ font-size: 45px;
 }
   #leader{
     width: 100%;
-    padding-top: 5%;
+    padding-top: 20%;
 }
 .About{
    display: flex;
